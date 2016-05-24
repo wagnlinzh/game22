@@ -1,0 +1,165 @@
+
+/*gameBox */
+.gameBox{
+  width:542px;
+  height: 522px;
+  /*background: url("../images/game/gameBox.jpg");*/
+  background: #EEE;
+}
+
+.gameheader{
+  text-align: center;
+  font-family: "Microsoft YaHei";
+  font-size: 24px;
+  color: #FFF;
+  padding-top: 15px;
+}
+
+.gameBody{
+  margin-top: 27px;
+  margin-left: 10px;
+}
+.gameBox .card{
+  width: 128px;
+  height: 148px;
+  float: left;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+.afterClick{
+  color: #FFF;
+  /*background: #c0f403  !important;*/
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
+  line-height: 149px;
+  text-align: center;
+}
+
+.gameBody .card1{
+  background: url("../images/game/card1.jpg") no-repeat top left;
+  /*background: #00BCD4;*/
+}
+.gameBody .card2{
+  background: url("../images/game/card2.jpg") no-repeat top left;
+  /*background: #00BCD4;*/
+}
+.gameBody .card3{
+  background: url("../images/game/card3.jpg") no-repeat top left;
+  /*background: #00BCD4;*/
+}
+.gameBody .card4{
+  background: url("../images/game/card4.jpg") no-repeat top left;
+  /*background: #00BCD4;*/
+}
+.gameBody .card5{
+  background: url("../images/game/card5.jpg") no-repeat top left;
+  /*background: #00BCD4;*/
+}
+.gameBody .card6{
+  background: url("../images/game/card6.jpg") no-repeat top left;
+  /*background: #00BCD4;*/
+}
+.gameBody .card7{
+  background: url("../images/game/card7.jpg") no-repeat top left;
+  /*background: #00BCD4;*/
+}
+.gameBody .card8{
+  background: url("../images/game/card8.jpg") no-repeat top left;
+  /*background: #00BCD4;*/
+}
+.gameBody .card9{
+  background: url("../images/game/card9.jpg") no-repeat top left;
+  /*background: #00BCD4;*/
+}
+.gameBody .card10{
+  background: url("../images/game/card10.jpg") no-repeat top left;
+  /*background: #00BCD4;*/
+}
+.gameBody .card11{
+  background: url("../images/game/card11.jpg") no-repeat top left;
+  /*background: #00BCD4;*/
+}
+.gameBody .card12{
+  background: url("../images/game/card12.jpg") no-repeat top left;
+  /*background: #00BCD4;*/
+}
+
+
+
+
+
+/*动画*/
+.animated.flipOutX{
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+}
+
+
+@-webkit-keyframes flipOutX {
+  from {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+
+  30% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes flipOutX {
+  from {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+
+  30% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    opacity: 0;
+  }
+}
+
+.flipOutX {
+  -webkit-animation-name: flipOutX;
+  animation-name: flipOutX;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+}
+
+
+
+.transparentCover{
+  width:542px;
+  height: 522px;
+  /*background: red;*/
+  z-index: 10;
+  position: absolute;
+  top: 29px;
+}
+
+
+
+
+
+
+.fotTest{
+  margin-top: 40px;
+  font-family: "Microsoft YaHei";
+  font-size: 20px;
+}
